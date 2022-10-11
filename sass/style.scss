@@ -1,0 +1,24 @@
+/* GLOBAL */
+@import "global/variables";
+@import "global/global";
+@import "global/fonts";
+
+/* BLOCKS */
+@import "blocks/header/header";
+@import "blocks/header/user-nav";
+@import "blocks/header/site-nav";
+@import "blocks/slider/slider";
+@import "blocks/slider/swiper";
+@import "blocks/features/features";
+@import "blocks/catalog/catalog";
+@import "blocks/catalog/form";
+@import "blocks/catalog/control";
+@import "blocks/catalog/custom-select";
+@import "blocks/catalog/cards";
+@import "blocks/footer/footer";
+@import "blocks/map/map";
+
+//common elements
+
+@import "blocks/common/button";
+@import "blocks/common/visually-hiden";

@@ -1,0 +1,19 @@
+.main__map {
+  width: 100%;
+  height: 420px;
+  background-image: url("../img/map_mobile.jpg");
+  background-color: $base-grey;
+
+  @media (min-width: $tablet-width) {
+    height: 480px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 540px;
+  }
+}
+
+.map__canvas {
+  z-index: 10;
+  height: 100%;
+}
